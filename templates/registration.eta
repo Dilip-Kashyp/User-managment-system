@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Hello user management!</title>
+</head>
+
+<body>
+  <h1>Registration!</h1>
+  <form method="POST" action="/auth/registration">
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" /><br />
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password" /><br />
+    <label for="verification">Password again:</label>
+    <input type="password" name="verification" id="verification" /><br />
+    <input type="submit" value="Register!" />
+  </form>
+</body>
+
+</html>
