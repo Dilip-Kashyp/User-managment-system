@@ -13,7 +13,7 @@
   </form>
   <% } else { %>
   <p>Hi guest!</p>
-  <p>Please <a href="/auth/login">login</a> or <a href="/auth/registration">register</a>.</p>
+  <p>Please <a href="/auth/login">login</link> or <a href="/auth/registration">register</a>.</p>
   <% } %>
 </body>
 
